@@ -277,6 +277,8 @@
 				47B19C4F16A5F4B800BE6359 /* whiteHeart.png in Resources */,
 				47B19C5016A5F4B800BE6359 /* smallComment@2x.png in Resources */,
 				47B19C5116A5F4B800BE6359 /* smallComment.png in Resources */,
+				47B19C8116A65B3300BE6359 /* timelineBackground.png in Resources */,
+				47B19C8216A65B3300BE6359 /* timelineBackground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
