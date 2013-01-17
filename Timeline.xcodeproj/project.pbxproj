@@ -22,6 +22,12 @@
 		47B19C5B16A60B6900BE6359 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5A16A60B6900BE6359 /* Parser.m */; };
 		47B19C5E16A6255B00BE6359 /* ActivityCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5D16A6255B00BE6359 /* ActivityCells.m */; };
 		47B19C6216A62DC700BE6359 /* ActivityFriendshipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C6116A62DC700BE6359 /* ActivityFriendshipCell.m */; };
+		47B19C6416A62DE800BE6359 /* ActivityFriendshipCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C6316A62DE800BE6359 /* ActivityFriendshipCell.xib */; };
+		47B19C6A16A636A200BE6359 /* ActivityPurchaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C6916A636A200BE6359 /* ActivityPurchaseCell.xib */; };
+		47B19C6C16A636B700BE6359 /* ActivityExchangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C6B16A636B700BE6359 /* ActivityExchangeCell.xib */; };
+		47B19C6E16A636CA00BE6359 /* ActivityUpgradeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C6D16A636CA00BE6359 /* ActivityUpgradeCell.xib */; };
+		47B19C7016A636E100BE6359 /* ActivityAddCoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C6F16A636E100BE6359 /* ActivityAddCoverCell.xib */; };
+		47B19C7216A636F300BE6359 /* ActivityLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C7116A636F300BE6359 /* ActivityLoadingCell.xib */; };
 		47B19C7516A6374600BE6359 /* ActivityPurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C7416A6374600BE6359 /* ActivityPurchaseCell.m */; };
 		47B19C7816A6375C00BE6359 /* ActivityExchangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C7716A6375B00BE6359 /* ActivityExchangeCell.m */; };
 		47B19C7B16A6376C00BE6359 /* ActivityUpgradeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C7A16A6376B00BE6359 /* ActivityUpgradeCell.m */; };
@@ -40,6 +46,8 @@
 		47E6EBEA16A59A0B0080E4B7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E6EBE916A59A0B0080E4B7 /* Default.png */; };
 		47E6EBEC16A59A0B0080E4B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E6EBEB16A59A0B0080E4B7 /* Default@2x.png */; };
 		47E6EBEE16A59A0B0080E4B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E6EBED16A59A0B0080E4B7 /* Default-568h@2x.png */; };
+		47E6EBF116A59A0B0080E4B7 /* TimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E6EBF016A59A0B0080E4B7 /* TimeLineViewController.m */; };
+		47E6EBF416A59A0B0080E4B7 /* TimeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E6EBF216A59A0B0080E4B7 /* TimeLineViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +71,12 @@
 		47B19C5D16A6255B00BE6359 /* ActivityCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCells.m; sourceTree = "<group>"; };
 		47B19C6016A62DC700BE6359 /* ActivityFriendshipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityFriendshipCell.h; sourceTree = "<group>"; };
 		47B19C6116A62DC700BE6359 /* ActivityFriendshipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityFriendshipCell.m; sourceTree = "<group>"; };
+		47B19C6316A62DE800BE6359 /* ActivityFriendshipCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityFriendshipCell.xib; sourceTree = "<group>"; };
+		47B19C6916A636A200BE6359 /* ActivityPurchaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityPurchaseCell.xib; sourceTree = "<group>"; };
+		47B19C6B16A636B700BE6359 /* ActivityExchangeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityExchangeCell.xib; sourceTree = "<group>"; };
+		47B19C6D16A636CA00BE6359 /* ActivityUpgradeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityUpgradeCell.xib; sourceTree = "<group>"; };
+		47B19C6F16A636E100BE6359 /* ActivityAddCoverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityAddCoverCell.xib; sourceTree = "<group>"; };
+		47B19C7116A636F300BE6359 /* ActivityLoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityLoadingCell.xib; sourceTree = "<group>"; };
 		47B19C7316A6374500BE6359 /* ActivityPurchaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPurchaseCell.h; sourceTree = "<group>"; };
 		47B19C7416A6374600BE6359 /* ActivityPurchaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPurchaseCell.m; sourceTree = "<group>"; };
 		47B19C7616A6375B00BE6359 /* ActivityExchangeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityExchangeCell.h; sourceTree = "<group>"; };
@@ -87,12 +101,14 @@
 		47E6EBE116A59A0B0080E4B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47E6EBE316A59A0B0080E4B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47E6EBE516A59A0B0080E4B7 /* Timeline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timeline-Prefix.pch"; sourceTree = "<group>"; };
-		47E6EBE616A59A0B0080E4B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		47E6EBE716A59A0B0080E4B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47E6EBE616A59A0B0080E4B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Timeline/AppDelegate.h; sourceTree = "<group>"; };
+		47E6EBE716A59A0B0080E4B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Timeline/AppDelegate.m; sourceTree = "<group>"; };
 		47E6EBE916A59A0B0080E4B7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		47E6EBEB16A59A0B0080E4B7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		47E6EBED16A59A0B0080E4B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		47E6EBF316A59A0B0080E4B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		47E6EBEF16A59A0B0080E4B7 /* TimeLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeLineViewController.h; sourceTree = "<group>"; };
+		47E6EBF016A59A0B0080E4B7 /* TimeLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewController.m; sourceTree = "<group>"; };
+		47E6EBF316A59A0B0080E4B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TimeLineViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +165,25 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		47B19C5F16A62D9D00BE6359 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				47E6EBF216A59A0B0080E4B7 /* TimeLineViewController.xib */,
+				47B19C6916A636A200BE6359 /* ActivityPurchaseCell.xib */,
+				47B19C6B16A636B700BE6359 /* ActivityExchangeCell.xib */,
+				47B19C6316A62DE800BE6359 /* ActivityFriendshipCell.xib */,
+				47B19C6D16A636CA00BE6359 /* ActivityUpgradeCell.xib */,
+				47B19C6F16A636E100BE6359 /* ActivityAddCoverCell.xib */,
+				47B19C7116A636F300BE6359 /* ActivityLoadingCell.xib */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
 		47E6EBC816A59A0B0080E4B7 = {
 			isa = PBXGroup;
 			children = (
+				47E6EBE616A59A0B0080E4B7 /* AppDelegate.h */,
+				47E6EBE716A59A0B0080E4B7 /* AppDelegate.m */,
 				47E6EBDD16A59A0B0080E4B7 /* Timeline */,
 				47E6EBD616A59A0B0080E4B7 /* Frameworks */,
 				47E6EBD416A59A0B0080E4B7 /* Products */,
@@ -179,10 +211,11 @@
 		47E6EBDD16A59A0B0080E4B7 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
-				47E6EBE616A59A0B0080E4B7 /* AppDelegate.h */,
-				47E6EBE716A59A0B0080E4B7 /* AppDelegate.m */,
+				47B19C5F16A62D9D00BE6359 /* NIBs */,
 				47B19C3D16A5F4A000BE6359 /* Images */,
 				47B19C5216A601EC00BE6359 /* Helpers */,
+				47E6EBEF16A59A0B0080E4B7 /* TimeLineViewController.h */,
+				47E6EBF016A59A0B0080E4B7 /* TimeLineViewController.m */,
 				47B19C7316A6374500BE6359 /* ActivityPurchaseCell.h */,
 				47B19C7416A6374600BE6359 /* ActivityPurchaseCell.m */,
 				47B19C7616A6375B00BE6359 /* ActivityExchangeCell.h */,
@@ -267,6 +300,7 @@
 				47E6EBEA16A59A0B0080E4B7 /* Default.png in Resources */,
 				47E6EBEC16A59A0B0080E4B7 /* Default@2x.png in Resources */,
 				47E6EBEE16A59A0B0080E4B7 /* Default-568h@2x.png in Resources */,
+				47E6EBF416A59A0B0080E4B7 /* TimeLineViewController.xib in Resources */,
 				47B19C4816A5F4B800BE6359 /* redButton.png in Resources */,
 				47B19C4916A5F4B800BE6359 /* redButton@2x.png in Resources */,
 				47B19C4A16A5F4B800BE6359 /* redHeart.png in Resources */,
@@ -277,6 +311,12 @@
 				47B19C4F16A5F4B800BE6359 /* whiteHeart.png in Resources */,
 				47B19C5016A5F4B800BE6359 /* smallComment@2x.png in Resources */,
 				47B19C5116A5F4B800BE6359 /* smallComment.png in Resources */,
+				47B19C6416A62DE800BE6359 /* ActivityFriendshipCell.xib in Resources */,
+				47B19C6A16A636A200BE6359 /* ActivityPurchaseCell.xib in Resources */,
+				47B19C6C16A636B700BE6359 /* ActivityExchangeCell.xib in Resources */,
+				47B19C6E16A636CA00BE6359 /* ActivityUpgradeCell.xib in Resources */,
+				47B19C7016A636E100BE6359 /* ActivityAddCoverCell.xib in Resources */,
+				47B19C7216A636F300BE6359 /* ActivityLoadingCell.xib in Resources */,
 				47B19C8116A65B3300BE6359 /* timelineBackground.png in Resources */,
 				47B19C8216A65B3300BE6359 /* timelineBackground@2x.png in Resources */,
 			);
@@ -291,6 +331,7 @@
 			files = (
 				47E6EBE416A59A0B0080E4B7 /* main.m in Sources */,
 				47E6EBE816A59A0B0080E4B7 /* AppDelegate.m in Sources */,
+				47E6EBF116A59A0B0080E4B7 /* TimeLineViewController.m in Sources */,
 				47B19C5516A6022D00BE6359 /* Connection.m in Sources */,
 				47B19C5816A60B5100BE6359 /* Data.m in Sources */,
 				47B19C5B16A60B6900BE6359 /* Parser.m in Sources */,
@@ -317,10 +358,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		47E6EBF216A59A0B0080E4B7 /* TimeLineViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				47E6EBF316A59A0B0080E4B7 /* en */,
 			);
+			name = TimeLineViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -417,6 +460,7 @@
 				47E6EBF916A59A0B0080E4B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
