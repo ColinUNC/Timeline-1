@@ -3,3 +3,21 @@ Timeline.xcodeproj/xcuserdata/mihael.xcuserdatad/xcschemes/Timeline.xcscheme
 Timeline.xcodeproj/project.xcworkspace/xcuserdata/mihael.xcuserdatad/UserInterfaceState.xcuserstate
 Timeline.xcodeproj/project.xcworkspace/contents.xcworkspacedata
 Timeline.xcodeproj/xcuserdata/mihael.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
