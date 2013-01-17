@@ -20,10 +20,17 @@
 		47B19C5516A6022D00BE6359 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5416A6022D00BE6359 /* Connection.m */; };
 		47B19C5816A60B5100BE6359 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5716A60B5100BE6359 /* Data.m */; };
 		47B19C5B16A60B6900BE6359 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5A16A60B6900BE6359 /* Parser.m */; };
+		47B19C5E16A6255B00BE6359 /* ActivityCells.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5D16A6255B00BE6359 /* ActivityCells.m */; };
+		47B19C6216A62DC700BE6359 /* ActivityFriendshipCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C6116A62DC700BE6359 /* ActivityFriendshipCell.m */; };
+		47B19C7516A6374600BE6359 /* ActivityPurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C7416A6374600BE6359 /* ActivityPurchaseCell.m */; };
+		47B19C7816A6375C00BE6359 /* ActivityExchangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C7716A6375B00BE6359 /* ActivityExchangeCell.m */; };
+		47B19C7B16A6376C00BE6359 /* ActivityUpgradeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C7A16A6376B00BE6359 /* ActivityUpgradeCell.m */; };
+		47B19C7E16A6378F00BE6359 /* ActivityAddCoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C7D16A6378E00BE6359 /* ActivityAddCoverCell.m */; };
 		47B19C8116A65B3300BE6359 /* timelineBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C7F16A65B3300BE6359 /* timelineBackground.png */; };
 		47B19C8216A65B3300BE6359 /* timelineBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B19C8016A65B3300BE6359 /* timelineBackground@2x.png */; };
 		47B19C8516A65F1E00BE6359 /* ImagesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C8416A65F1E00BE6359 /* ImagesCache.m */; };
 		47B19C8816A6B4AF00BE6359 /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C8716A6B4AE00BE6359 /* CommonHelper.m */; };
+		47B19C8B16A6D86100BE6359 /* ActivityComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C8A16A6D86100BE6359 /* ActivityComments.m */; };
 		47E6EBD816A59A0B0080E4B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E6EBD716A59A0B0080E4B7 /* UIKit.framework */; };
 		47E6EBDA16A59A0B0080E4B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E6EBD916A59A0B0080E4B7 /* Foundation.framework */; };
 		47E6EBDC16A59A0B0080E4B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E6EBDB16A59A0B0080E4B7 /* CoreGraphics.framework */; };
@@ -52,12 +59,26 @@
 		47B19C5716A60B5100BE6359 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
 		47B19C5916A60B6900BE6359 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
 		47B19C5A16A60B6900BE6359 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		47B19C5C16A6255B00BE6359 /* ActivityCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCells.h; sourceTree = "<group>"; };
+		47B19C5D16A6255B00BE6359 /* ActivityCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCells.m; sourceTree = "<group>"; };
+		47B19C6016A62DC700BE6359 /* ActivityFriendshipCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityFriendshipCell.h; sourceTree = "<group>"; };
+		47B19C6116A62DC700BE6359 /* ActivityFriendshipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityFriendshipCell.m; sourceTree = "<group>"; };
+		47B19C7316A6374500BE6359 /* ActivityPurchaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityPurchaseCell.h; sourceTree = "<group>"; };
+		47B19C7416A6374600BE6359 /* ActivityPurchaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityPurchaseCell.m; sourceTree = "<group>"; };
+		47B19C7616A6375B00BE6359 /* ActivityExchangeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityExchangeCell.h; sourceTree = "<group>"; };
+		47B19C7716A6375B00BE6359 /* ActivityExchangeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityExchangeCell.m; sourceTree = "<group>"; };
+		47B19C7916A6376B00BE6359 /* ActivityUpgradeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityUpgradeCell.h; sourceTree = "<group>"; };
+		47B19C7A16A6376B00BE6359 /* ActivityUpgradeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityUpgradeCell.m; sourceTree = "<group>"; };
+		47B19C7C16A6378E00BE6359 /* ActivityAddCoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityAddCoverCell.h; sourceTree = "<group>"; };
+		47B19C7D16A6378E00BE6359 /* ActivityAddCoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityAddCoverCell.m; sourceTree = "<group>"; };
 		47B19C7F16A65B3300BE6359 /* timelineBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timelineBackground.png; sourceTree = "<group>"; };
 		47B19C8016A65B3300BE6359 /* timelineBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timelineBackground@2x.png"; sourceTree = "<group>"; };
 		47B19C8316A65F1E00BE6359 /* ImagesCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesCache.h; sourceTree = "<group>"; };
 		47B19C8416A65F1E00BE6359 /* ImagesCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesCache.m; sourceTree = "<group>"; };
 		47B19C8616A6B4AE00BE6359 /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
 		47B19C8716A6B4AE00BE6359 /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
+		47B19C8916A6D86000BE6359 /* ActivityComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityComments.h; sourceTree = "<group>"; };
+		47B19C8A16A6D86100BE6359 /* ActivityComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityComments.m; sourceTree = "<group>"; };
 		47E6EBD316A59A0B0080E4B7 /* Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E6EBD716A59A0B0080E4B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		47E6EBD916A59A0B0080E4B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -162,6 +183,16 @@
 				47E6EBE716A59A0B0080E4B7 /* AppDelegate.m */,
 				47B19C3D16A5F4A000BE6359 /* Images */,
 				47B19C5216A601EC00BE6359 /* Helpers */,
+				47B19C7316A6374500BE6359 /* ActivityPurchaseCell.h */,
+				47B19C7416A6374600BE6359 /* ActivityPurchaseCell.m */,
+				47B19C7616A6375B00BE6359 /* ActivityExchangeCell.h */,
+				47B19C7716A6375B00BE6359 /* ActivityExchangeCell.m */,
+				47B19C6016A62DC700BE6359 /* ActivityFriendshipCell.h */,
+				47B19C6116A62DC700BE6359 /* ActivityFriendshipCell.m */,
+				47B19C7916A6376B00BE6359 /* ActivityUpgradeCell.h */,
+				47B19C7A16A6376B00BE6359 /* ActivityUpgradeCell.m */,
+				47B19C7C16A6378E00BE6359 /* ActivityAddCoverCell.h */,
+				47B19C7D16A6378E00BE6359 /* ActivityAddCoverCell.m */,
 				47E6EBDE16A59A0B0080E4B7 /* Supporting Files */,
 			);
 			path = Timeline;
@@ -261,8 +292,15 @@
 				47B19C5516A6022D00BE6359 /* Connection.m in Sources */,
 				47B19C5816A60B5100BE6359 /* Data.m in Sources */,
 				47B19C5B16A60B6900BE6359 /* Parser.m in Sources */,
+				47B19C5E16A6255B00BE6359 /* ActivityCells.m in Sources */,
+				47B19C6216A62DC700BE6359 /* ActivityFriendshipCell.m in Sources */,
+				47B19C7516A6374600BE6359 /* ActivityPurchaseCell.m in Sources */,
+				47B19C7816A6375C00BE6359 /* ActivityExchangeCell.m in Sources */,
+				47B19C7B16A6376C00BE6359 /* ActivityUpgradeCell.m in Sources */,
+				47B19C7E16A6378F00BE6359 /* ActivityAddCoverCell.m in Sources */,
 				47B19C8516A65F1E00BE6359 /* ImagesCache.m in Sources */,
 				47B19C8816A6B4AF00BE6359 /* CommonHelper.m in Sources */,
+				47B19C8B16A6D86100BE6359 /* ActivityComments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
