@@ -161,6 +161,7 @@
 				47E6EBE616A59A0B0080E4B7 /* AppDelegate.h */,
 				47E6EBE716A59A0B0080E4B7 /* AppDelegate.m */,
 				47B19C3D16A5F4A000BE6359 /* Images */,
+				47B19C5216A601EC00BE6359 /* Helpers */,
 				47E6EBDE16A59A0B0080E4B7 /* Supporting Files */,
 			);
 			path = Timeline;
