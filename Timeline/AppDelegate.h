@@ -7,6 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TimeLineViewController.h"
+
+#define CSCurrentUserFirstName @"CSCurrentUserFirstName"
+#define CSCurrentUserLastName @"CSCurrentUserLastName"
+#define CSCurrentUserPhoto @"CSCurrentUserPhoto"
 
 @class ViewController;
 
@@ -14,5 +19,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++(NSString*)retrieveString:(NSString*)key;
++(void)saveString:(NSString*)value forKey:(NSString*)key;
 
 @end
