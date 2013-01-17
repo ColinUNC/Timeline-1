@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47B19C5516A6022D00BE6359 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5416A6022D00BE6359 /* Connection.m */; };
+		47B19C5816A60B5100BE6359 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5716A60B5100BE6359 /* Data.m */; };
+		47B19C5B16A60B6900BE6359 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C5A16A60B6900BE6359 /* Parser.m */; };
+		47B19C8516A65F1E00BE6359 /* ImagesCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C8416A65F1E00BE6359 /* ImagesCache.m */; };
+		47B19C8816A6B4AF00BE6359 /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B19C8716A6B4AE00BE6359 /* CommonHelper.m */; };
 		47E6EBD816A59A0B0080E4B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E6EBD716A59A0B0080E4B7 /* UIKit.framework */; };
 		47E6EBDA16A59A0B0080E4B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E6EBD916A59A0B0080E4B7 /* Foundation.framework */; };
 		47E6EBDC16A59A0B0080E4B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E6EBDB16A59A0B0080E4B7 /* CoreGraphics.framework */; };
@@ -19,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47B19C5316A6022D00BE6359 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		47B19C5416A6022D00BE6359 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		47B19C5616A60B5100BE6359 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		47B19C5716A60B5100BE6359 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		47B19C5916A60B6900BE6359 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		47B19C5A16A60B6900BE6359 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		47B19C8316A65F1E00BE6359 /* ImagesCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesCache.h; sourceTree = "<group>"; };
+		47B19C8416A65F1E00BE6359 /* ImagesCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesCache.m; sourceTree = "<group>"; };
+		47B19C8616A6B4AE00BE6359 /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
+		47B19C8716A6B4AE00BE6359 /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
 		47E6EBD316A59A0B0080E4B7 /* Timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E6EBD716A59A0B0080E4B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		47E6EBD916A59A0B0080E4B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,6 +64,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47B19C5216A601EC00BE6359 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				47B19C5316A6022D00BE6359 /* Connection.h */,
+				47B19C5416A6022D00BE6359 /* Connection.m */,
+				47B19C5616A60B5100BE6359 /* Data.h */,
+				47B19C5716A60B5100BE6359 /* Data.m */,
+				47B19C5916A60B6900BE6359 /* Parser.h */,
+				47B19C5A16A60B6900BE6359 /* Parser.m */,
+				47B19C5C16A6255B00BE6359 /* ActivityCells.h */,
+				47B19C5D16A6255B00BE6359 /* ActivityCells.m */,
+				47B19C8316A65F1E00BE6359 /* ImagesCache.h */,
+				47B19C8416A65F1E00BE6359 /* ImagesCache.m */,
+				47B19C8616A6B4AE00BE6359 /* CommonHelper.h */,
+				47B19C8716A6B4AE00BE6359 /* CommonHelper.m */,
+				47B19C8916A6D86000BE6359 /* ActivityComments.h */,
+				47B19C8A16A6D86100BE6359 /* ActivityComments.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		47E6EBC816A59A0B0080E4B7 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +203,11 @@
 			files = (
 				47E6EBE416A59A0B0080E4B7 /* main.m in Sources */,
 				47E6EBE816A59A0B0080E4B7 /* AppDelegate.m in Sources */,
+				47B19C5516A6022D00BE6359 /* Connection.m in Sources */,
+				47B19C5816A60B5100BE6359 /* Data.m in Sources */,
+				47B19C5B16A60B6900BE6359 /* Parser.m in Sources */,
+				47B19C8516A65F1E00BE6359 /* ImagesCache.m in Sources */,
+				47B19C8816A6B4AF00BE6359 /* CommonHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
